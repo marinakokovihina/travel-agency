@@ -17,7 +17,7 @@ const HomePage = () => {
         <StyledHomePage>
             <StyledHeader>
                 <StyledNav>
-                        <StyledLogoText> Travel Hype </StyledLogoText>
+                        <StyledLogoText> Travel Agency </StyledLogoText>
                         <StyledMenu>
                             <a href={"/login"}>Войти в аккаунт</a>
                             <a href={"/register"}>Зарегистрироваться</a>
@@ -25,7 +25,7 @@ const HomePage = () => {
                 </StyledNav>
             </StyledHeader>
             <StyledWrapper>
-                <h2>Популярные направления:</h2>
+                <h3>Популярные направления:</h3>
                 <StyledCase>
 
                     <StyledImg src={moscowPhoto}/>
@@ -79,10 +79,9 @@ const HomePage = () => {
                     </StyledText>
                 </StyledCase>
             </StyledWrapper>
-                добавить плашку про соц сети наши
             <StyledFooter>
-                тут подвал
 
+                Выполнини: Афонина Арина и Коковихина Марина. Группа МВИ-121
             </StyledFooter>
 
 

@@ -17,7 +17,7 @@ export const StyledLogoText = styled.p `
   color: white;
   font-family: "Open Sans";
   font-weight: bold;
-  padding-left: 400px;
+  padding-left: 200px;
 
 
 
@@ -25,11 +25,11 @@ export const StyledLogoText = styled.p `
 
 export const StyledNav = styled.div`
   width: 95%;
-  height: 300px;
+  height: 200px;
   border-radius: 20px;
   //background-color: white;
   display: flex;
-  margin-top: 120px;
+  margin-top: 80px;
   justify-content: space-between;
   align-items: center;
 
@@ -48,6 +48,7 @@ export const StyledMenu = styled.div `
       padding-right: 150px;
       display: flex;
       justify-content: space-between;
+ 
 `;
 
 export const StyledWrapper = styled.div `
@@ -61,10 +62,12 @@ export const StyledWrapper = styled.div `
   justify-content: center;
   color: #0c73fe;
   h2 {
-    color: white;
     font-size: 44px;
   }
-  
+  h3 {
+    font-size: 50px;
+    color: white;
+  }
 `
 export const StyledImg = styled.img `
   max-width: 45%;
@@ -92,9 +95,22 @@ export const StyledText = styled.div `
     font-size: 45px;
     text-align: center;
   }
-
+  
+  .infoId{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    button{
+      margin-top: 50px;
+    }
+  }
+  .info{
+    margin-top: 40px;
+    font-size: 35px;
+  }
   p {
     font-size: 27px;
+
   }
   .tab {
     padding-left: 40px;
@@ -115,12 +131,13 @@ export const StyledText = styled.div `
     align-items: center;
     line-height: 1;
     font-size: 26px;
-   
   }
   .linkStyle {
     text-decoration: none;
   }
+  
 `
+
 export const StyledCase = styled.div `
   min-height: 700px;
   max-width: 85%;
@@ -138,4 +155,40 @@ export const StyledFooter = styled.footer `
   background-color: white;
   height: 200px;
   padding-top: 100px;
+`
+
+export const StyledTextTour = styled.div `
+  align-items: center;
+  min-width: 40%;
+  min-height: 80%;
+  margin: 20px 40px 20px 40px;
+
+
+  font-size: 20px;
+  letter-spacing: 0.9px;
+  line-height: 30px;
+
+  h2{
+    font-size: 26px;
+    color: #0c73fe; 
+    justify-content: center;
+    display: flex;
+    font-weight: bolder;
+  }
+  button{
+    display: flex;
+    justify-content: center;
+    background-color: #0c73fe;
+    margin: 0 auto;
+    border: none;
+    width: 300px;
+    height: 60px;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    align-items: center;
+    line-height: 1;
+    font-size: 26px;
+  }
 `

@@ -15,8 +15,8 @@ import RegisterPage from "./pages/auth/RegisterPage";
 
 
 
+
 // фейковая аутентификация потом сюда ченить прикрутить
-const isAuthenticated = false;
 
 function App() {
   return (
@@ -29,9 +29,9 @@ function App() {
                   <Route path="/nnovgorod" element={<NNovgorodTour />} />
                   <Route path="*" element={<NotFoundPage />}/>
 
-                  <Route path="/login" element={isAuthenticated ? <Navigate to="/profile" /> : <LoginPage />} />
-                  <Route path="/register" element={<RegisterPage/>} />
-                  <Route path="/profile" element={!isAuthenticated ? <Navigate to="/login" /> : <ProfilePage />} />
+                  <Route path="/login" element={ <LoginPage />} />
+                  <Route path="/register" element={ <RegisterPage />} />
+                  <Route path="/profile" element={<ProfilePage/>}/>
               </Routes>
           </BrowserRouter>
       </StyledApp>
